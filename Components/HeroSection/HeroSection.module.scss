@@ -1,0 +1,54 @@
+.hero {
+  padding: 2em 2em 0;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--mainColor);
+  }
+  p {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+
+  @media screen and (min-width: 800px) {
+    padding: 7em 5em 0;
+    text-align: start;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}
+
+.globalHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+  background-blend-mode: overlay;
+
+  padding: 2em 1.5em;
+
+  .globalHeroTitle {
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    h2 {
+      font-size: clamp(var(--fontBig), 10vw, var(--fontSuperBig));
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5em 2em;
+  }
+}

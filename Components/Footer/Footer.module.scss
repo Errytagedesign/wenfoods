@@ -1,0 +1,57 @@
+.footer {
+  padding: 2em 4em;
+  background-color: var(--mainColor);
+  color: var(--white);
+
+  @media screen and (max-width: 890px) {
+    padding: 20px 35px 50px;
+  }
+
+  .logo {
+    h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-left: 5px;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 9px;
+    }
+  }
+
+  aside {
+    margin: 2px auto;
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 25px;
+
+      @media screen and (max-width: 890px) {
+        margin-top: 50px;
+      }
+    }
+
+    a {
+      font-size: 14px;
+      font-weight: 500;
+
+      span {
+        color: var(--black);
+        font-size: 7px;
+        background-color: var(--light-green);
+        padding: 5px 10px;
+      }
+      @media screen and (max-width: 890px) {
+        // text-align: center;
+      }
+    }
+  }
+
+  article {
+    border-top: 1px solid white;
+    margin-top: 62px;
+    padding-top: 14px;
+  }
+}

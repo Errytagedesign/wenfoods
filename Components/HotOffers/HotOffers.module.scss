@@ -1,0 +1,50 @@
+.OffersContainer {
+  .Offers {
+    border: solid 1px var(--mainColor);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    p {
+      font-size: 1rem;
+    }
+
+    @media screen and (min-width: 500px) {
+      width: 48%;
+      h4 {
+        font-size: 1.75rem;
+        color: var(--mainColor);
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      width: 33%;
+      h3 {
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
+
+.OfferSlide {
+  background: var(--mainColor) url('/assets/australia.webp') center center
+    no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  padding: 5em 0;
+  h3 {
+    color: var(--white);
+  }
+
+  .OfferCard {
+    section {
+      border: solid 1px var(--mainColor);
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      p {
+        font-size: 1rem;
+      }
+    }
+    // background: var(--white);
+  }
+}
