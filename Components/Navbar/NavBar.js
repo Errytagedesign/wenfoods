@@ -27,12 +27,12 @@ function NavBar() {
             href='/'
             className={`col-8 col-md-3 d-flex flex-row align-items-center ${styles.logo}`}
           >
-            <figure className='col-6'>
-              <Image src={Logo} alt=' Destiny Travels and tours Logo' />
+            <figure className='col-4'>
+              <Image src={Logo} alt=' Wen Foods Logo' />
             </figure>
           </Link>
           <div
-            className={` col-12 col-lg-9 d-flex flex-column flex-lg-row justify-content-between ${
+            className={` col-12 col-lg-6 d-flex flex-column flex-lg-row justify-content-between ${
               navbar ? styles.displayNav : styles.navMove
             }`}
           >

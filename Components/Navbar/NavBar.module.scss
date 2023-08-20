@@ -20,7 +20,7 @@
     }
 
     .navItems {
-      color: var(--secColor);
+      color: var(--mainColor);
       font-size: 20px;
       font-weight: 500;
       // position: relative;
@@ -170,13 +170,16 @@
         transition: all 0.3s ease-in-out;
       }
     }
-
+    .ham {
+      display: none;
+    }
     @media screen and (max-width: 890px) {
       .logo {
         h2 {
           font-size: 16px;
         }
       }
+
       .ham {
         cursor: pointer;
         z-index: 9;
@@ -200,7 +203,7 @@
           position: absolute;
           height: 3px;
           width: 38px;
-          background: var(--secColor);
+          background: var(--mainColor);
           border-radius: 9px;
           opacity: 1;
           left: 0;
@@ -248,7 +251,7 @@
           position: absolute;
           height: 4px;
           width: 70%;
-          background: var(--secColor);
+          background: var(--mainColor);
           border-radius: 9px;
           opacity: 1;
           left: 0;
@@ -307,7 +310,7 @@
           height: 100vh;
           // background-color: #ffffff0f;
           overflow-x: scroll;
-          background: var(--mainColor);
+          background: var(--darkGreen);
           backdrop-filter: blur(15px) brightness(0.9);
           -webkit-backdrop-filter: blur(15px) brightness(0.9);
 
@@ -339,7 +342,7 @@
           justify-content: space-between;
           width: 80%;
           height: 100vh;
-          background: var(--mainColor);
+          background: var(--darkGreen);
           backdrop-filter: blur(25px) brightness(0.9);
           -webkit-backdrop-filter: blur(25px) brightness(0.9);
           overflow-x: scroll;

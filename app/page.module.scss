@@ -1,0 +1,96 @@
+.main {
+  .whyUs {
+    padding: 5em 1em;
+    text-align: center;
+    background: #f5f3f3;
+
+    h4 {
+      color: var(--mainColor);
+    }
+
+    p {
+      color: var(--lightGrey);
+      strong {
+        color: var(--secColor);
+      }
+    }
+
+    aside {
+      ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+
+      li {
+        color: var(--lightGrey);
+        margin-bottom: 1em;
+        line-height: 25px;
+        padding: 1em 0.5em;
+
+        span {
+          color: var(--secColor);
+        }
+      }
+    }
+  }
+
+  .services {
+    padding: 5em 1em;
+    text-align: center;
+    color: var(--lightGrey);
+    background: var(--white);
+
+    .serviceCard {
+      border: solid 1px var(--mainColor);
+      border-radius: 12px;
+      overflow: hidden;
+      width: 100%;
+
+      .cardTitle {
+        color: var(--white);
+
+        .Icon {
+          font-size: 2.5rem;
+          &:hover {
+            color: var(--accentColor);
+          }
+        }
+        background: var(--mainColor);
+        padding: 1.3em 1em;
+      }
+
+      .cardDescription {
+        padding: 1.5em 1em;
+      }
+
+      @media screen and (min-width: 500px) {
+        width: 48%;
+        h3 {
+          font-size: 1.75rem;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        width: 33%;
+        h3 {
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+
+  .hotOffers {
+    background: var(--mainColor) url('/assets/destinytravelbusinessvisas.webp')
+      center center no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    padding: 5em 0;
+    h3 {
+      color: var(--white);
+    }
+  }
+
+  .reviewsContainer {
+    padding: 6em 1em;
+  }
+}

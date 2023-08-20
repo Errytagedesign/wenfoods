@@ -1,7 +1,11 @@
 .footer {
   padding: 2em 4em;
-  background-color: var(--mainColor);
+  background-color: var(--darkGreen);
   color: var(--white);
+
+  small {
+    color: var(--mainColor);
+  }
 
   @media screen and (max-width: 890px) {
     padding: 20px 35px 50px;
@@ -43,9 +47,9 @@
         background-color: var(--light-green);
         padding: 5px 10px;
       }
-      @media screen and (max-width: 890px) {
-        // text-align: center;
-      }
+      // @media screen and (max-width: 890px) {
+      //   // text-align: center;
+      // }
     }
   }
 

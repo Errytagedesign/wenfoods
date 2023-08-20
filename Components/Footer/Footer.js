@@ -15,12 +15,12 @@ function Footer() {
           <figure>
             {' '}
             <Image
-              className='col-12 col-md-5'
+              className='col-12 col-md-3'
               src={Logo}
-              alt=' Destiny Travels and tours Logo'
+              alt='Wen Foods Logo'
             />{' '}
           </figure>
-          <div>
+          {/* <div>
             {' '}
             <p>
               {' '}
@@ -28,12 +28,11 @@ function Footer() {
               permanent residency, citizenship, business visas, and tourist
               visas.
             </p>{' '}
-          </div>
+          </div> */}
         </section>
-        <section className='d-flex flex-row col-12 col-md-4 justify-content-between'>
-          <FaFacebook size={30} color='var(--secColor)' />{' '}
-          <FaTwitter size={30} color='var(--secColor)' />{' '}
-          <FaInstagram size={30} color='var(--secColor)' />
+        <section className='d-flex flex-row col-12 col-md-2 justify-content-between'>
+          <small> Follow us on: </small>
+          <FaInstagram size={30} color='var(--mainColor)' />
         </section>
       </main>
     </div>

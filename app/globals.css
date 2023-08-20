@@ -1,10 +1,12 @@
 :root {
-  --mainColor: #141e5b;
-  --secColor: #0093cd;
+  --mainColor: #439900;
+  --secColor: #0576a3;
+  --darkGreen: #102400;
   --black: #1c1b24;
   --lightGrey: #8d8d92;
   --accentColor: #fdb12a;
   --lightOrange: #ff644314;
+  --grad: linear-gradient(90deg, #439900 57.39%, #102400 100%);
   --white: #fff;
   --fontSmall: 1.3rem;
   --fontMed: 1.75rem;
