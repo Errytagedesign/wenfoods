@@ -91,7 +91,8 @@ button {
 
 .sec-btn {
   color: var(--white);
-  background: var(--mainColor);
+  border: solid 1px var(--accentColor);
+  background: var(--darkGreen);
   border-radius: 4px;
   padding: 0.3em 1em;
   font-size: var(--fontSmall);

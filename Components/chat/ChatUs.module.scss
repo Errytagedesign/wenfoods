@@ -1,17 +1,17 @@
 .chatus {
   background: linear-gradient(#075e54, #25d366);
-  padding: 0.6em 1em;
+  padding: 0.6em;
   color: var(--white);
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   box-shadow: 3px 9px 25px #1c1b2474;
 
   display: flex;
   place-items: center;
 
   span {
-    font-size: 1rem;
+    font-size: 0.6rem;
     text-align: center;
   }
 }

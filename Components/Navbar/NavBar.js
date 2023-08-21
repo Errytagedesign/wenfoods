@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 
 // icons
-import { BsChevronDown } from 'react-icons/bs';
 import Logo from '../../public/assets/wenfoods.png';
 // styles
 import styles from './NavBar.module.scss';
@@ -49,7 +48,7 @@ function NavBar() {
 
                 <li onClick={handleNav} className={` ${styles.navItems} `}>
                   {' '}
-                  <Link href='/about'> About us </Link>
+                  <Link href='/products'> Products </Link>
                 </li>
                 <li className={` ${styles.navItems} `}>
                   {' '}

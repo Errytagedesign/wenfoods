@@ -69,7 +69,7 @@ export default function Home() {
 
       <section data-aos='zoom-in' className={styles.hotOffers}>
         <section data-aos='fade-up' className='text-center section-title'>
-          <h3> Hot Offers </h3>
+          <h3> Trending Products </h3>
           <div className='line'></div>
         </section>
         <HotOffers />

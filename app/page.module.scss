@@ -92,18 +92,23 @@
 
   .fix {
     background: url('/assets/homeFixImage.jpeg') center center no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
-    height: 70vh;
+    height: 40vh;
     h3 {
       color: var(--white);
+    }
+
+    @media screen and (min-width: 500px) {
+      background-size: contain;
+      height: 70vh;
     }
   }
 
   .Chat {
     position: fixed;
-    bottom: 30%;
-    right: 10px;
+    bottom: 10%;
+    right: 20px;
     z-index: 300;
   }
 

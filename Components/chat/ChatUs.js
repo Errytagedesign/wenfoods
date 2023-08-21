@@ -9,9 +9,9 @@ function ChatUs() {
         <h4 className='d-flex flex-column align-items-center'>
           <span>
             {' '}
-            <BsWhatsapp size={40} />
+            <BsWhatsapp size={30} />
           </span>{' '}
-          <span>Chat with us to ORDER</span>
+          <span>Chat us to ORDER</span>
         </h4>
       </Link>
     </div>

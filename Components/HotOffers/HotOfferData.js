@@ -13,7 +13,7 @@ export const hotOffersData = [
   },
   {
     id: 2,
-    title: 'Australia Visas Program',
+    title: '507 Gold Parboiled Basmati Rice',
     subtitle:
       " Unlock a world of opportunities in Australia with our diverse visa program. Whether you're pursuing work, study, tourism, or business endeavors, we offer tailored solutions to meet your specific requirements. Let us be your guide to making your Australian dreams a reality.",
     imageUrl: basmati507,

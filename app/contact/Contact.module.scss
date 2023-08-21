@@ -1,0 +1,80 @@
+.contact {
+  h3 {
+    font-weight: 700;
+    color: var(--mainColor);
+    font-size: var(--fontMed);
+  }
+
+  .globalHero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background: var(--darkGreen) url('/assets/basmati_rice.jpeg') center center
+      no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 2em 1.5em;
+
+    .globalHeroTitle {
+      width: 100%;
+      text-align: center;
+      color: var(--white);
+      h2 {
+        font-size: clamp(var(--fontBig), 10vw, var(--fontSuperBig));
+        font-weight: 600;
+      }
+    }
+
+    @media screen and (min-width: 900px) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 5em 2em;
+    }
+  }
+
+  .form {
+    background: var(--mainColor);
+    color: var(--white);
+    padding: 2em 1em;
+    border-radius: 12px;
+    h3 {
+      font-weight: 700;
+      color: var(--white);
+    }
+  }
+
+  .contactList {
+    li {
+      margin-top: 1em;
+      border: solid 1px var(--mainColor);
+      border-radius: 20px;
+    }
+
+    address,
+    a {
+      font-weight: 600;
+    }
+
+    address {
+      margin: 0;
+    }
+  }
+
+  .market {
+    li {
+      list-style-type: disc;
+      margin: 0 0 0 1em;
+    }
+  }
+  .Icons {
+    color: var(--white);
+    background: var(--mainColor);
+    padding: 0.2em;
+    border-radius: 19px;
+    font-size: 2rem;
+  }
+}
