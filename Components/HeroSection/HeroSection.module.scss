@@ -29,6 +29,21 @@
   }
 }
 
+.productImage {
+  animation: imageZoomIn 1s ease-in-out;
+
+  // transition: all 1s ease-in-out;
+  @keyframes imageZoomIn {
+    0% {
+      transform: scale(0);
+    }
+
+    100% {
+      transform: scale(1.1);
+    }
+  }
+}
+
 .globalHero {
   display: flex;
   flex-direction: column;

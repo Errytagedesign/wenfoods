@@ -19,7 +19,7 @@ const HeroSliders = ({ title, subtitle, imageUrl, bgUrl }) => {
         <h1 data-aos='fade-up'> {title}</h1>
         <p data-aos='fade-up'>{subtitle}</p>
       </div>
-      <figure data-aos='zoom-in' className='col-12 col-lg-6'>
+      <figure className={` ${styles.productImage} col-12 col-lg-6`}>
         <Image className='col-12' src={imageUrl} alt='Wen Foods Basmati rice' />
       </figure>
     </section>

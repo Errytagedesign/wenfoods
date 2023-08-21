@@ -1,7 +1,8 @@
 .OffersContainer {
   .Offers {
-    border: solid 1px var(--mainColor);
+    background: var(--white);
     border-radius: 12px;
+    padding: 1em;
     overflow: hidden;
     width: 100%;
     p {

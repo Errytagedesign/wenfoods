@@ -1,6 +1,8 @@
 import Reviews from '@/Components/reviews/Reviews';
 import styles from './page.module.scss';
 import HeroSection from '@/Components/HeroSection/HeroSection';
+import HotOffers from '@/Components/HotOffers/HotOffers';
+import ChatUs from '@/Components/chat/ChatUs';
 
 export default function Home() {
   return (
@@ -65,7 +67,30 @@ export default function Home() {
         </section>
       </section>
 
-      <Reviews />
+      <section data-aos='zoom-in' className={styles.hotOffers}>
+        <section data-aos='fade-up' className='text-center section-title'>
+          <h3> Hot Offers </h3>
+          <div className='line'></div>
+        </section>
+        <HotOffers />
+      </section>
+
+      <section
+        data-aos='zoom-in'
+        className={`${styles.reviewsContainer} container`}
+      >
+        <section data-aos='fade-up' className='text-center section-title'>
+          <h3> What our satisfied client says </h3>
+          <div className='line'></div>
+        </section>
+        <Reviews />
+      </section>
+
+      <aside className={styles.Chat}>
+        <ChatUs />
+      </aside>
+
+      <section className={styles.fix}></section>
     </main>
   );
 }

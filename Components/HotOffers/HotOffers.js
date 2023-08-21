@@ -22,10 +22,10 @@ function HotOffers() {
             <p className='card-text'>{subtitle.slice(0, 100)}... </p>
           </div>
 
-          <div>
-            <button className='main-btn my-3'>
+          <div className='col-12'>
+            <button className='main-btn my-3 col-12'>
               {' '}
-              <Link href={url}> Read More </Link>{' '}
+              <Link href={url}> Buy Now </Link>{' '}
             </button>
           </div>
         </article>

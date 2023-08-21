@@ -2,7 +2,7 @@
   .whyUs {
     padding: 5em 1em;
     text-align: center;
-    background: #f5f3f3;
+    background: #ffffff;
 
     h4 {
       color: var(--mainColor);
@@ -79,8 +79,8 @@
   }
 
   .hotOffers {
-    background: var(--mainColor) url('/assets/destinytravelbusinessvisas.webp')
-      center center no-repeat;
+    background: var(--darkGreen) url('/assets/basmati_rice.jpeg') center center
+      no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     background-attachment: fixed;
@@ -88,6 +88,23 @@
     h3 {
       color: var(--white);
     }
+  }
+
+  .fix {
+    background: url('/assets/homeFixImage.jpeg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    h3 {
+      color: var(--white);
+    }
+  }
+
+  .Chat {
+    position: fixed;
+    bottom: 30%;
+    right: 10px;
+    z-index: 300;
   }
 
   .reviewsContainer {

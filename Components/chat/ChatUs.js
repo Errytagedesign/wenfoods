@@ -6,12 +6,12 @@ function ChatUs() {
   return (
     <div className={styles.chatus}>
       <Link href='https://wa.me/+2348095342136'>
-        <h4 className='d-flex flex-row justify-content-between align-items-center'>
+        <h4 className='d-flex flex-column align-items-center'>
           <span>
             {' '}
             <BsWhatsapp size={40} />
           </span>{' '}
-          <span>APPLY NOW!</span>
+          <span>Chat with us to ORDER</span>
         </h4>
       </Link>
     </div>
