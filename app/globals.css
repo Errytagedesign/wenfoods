@@ -57,6 +57,12 @@ img:hover {
   box-shadow: 3px 9px 25px #1c1b2474;
 }
 
+.frontCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
 .errors {
   border: solid red 1px;
 }

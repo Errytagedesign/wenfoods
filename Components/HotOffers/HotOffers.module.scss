@@ -2,25 +2,24 @@
   .Offers {
     background: var(--white);
     border-radius: 12px;
-    padding: 1em;
+    padding: 0.5em;
     overflow: hidden;
     width: 100%;
-    p {
-      font-size: 1rem;
-    }
 
     @media screen and (min-width: 500px) {
-      width: 48%;
       h4 {
+        font-size: 1.75rem;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      h3 {
         font-size: 1.75rem;
         color: var(--mainColor);
       }
     }
-    @media screen and (min-width: 1200px) {
-      width: 33%;
-      h3 {
-        font-size: 1.75rem;
-      }
+
+    .stars {
+      color: var(--accentColor);
     }
   }
 }
