@@ -23,7 +23,7 @@ export const hotOffersData = [
     id: 2,
     title: '507 Gold Parboiled Basmati Rice 20kg',
     subtitle:
-      " Unlock a world of opportunities in Australia with our diverse visa program. Whether you're pursuing work, study, tourism, or business endeavors, we offer tailored solutions to meet your specific requirements. Let us be your guide to making your Australian dreams a reality.",
+      "Introducing 507 Gold Basmati Rice – A Superior Culinary Experience!  <br/> <br/> Elevate your dining affair with the epitome of rice perfection, the 507 Gold Basmati Rice. This exceptional variety stands tall, boasting its delectable taste, pristine pearl-white appearance, and the luxurious length of its grains. A natural source of protein, it adds an extra layer of nourishment to your meals.  <br/> <br/> As the true embodiment of traditional Basmati rice, 507 Gold has captured the hearts of Basmati enthusiasts far and wide. Its fragrance is simply spellbinding, and its taste is nothing short of divine. Elevate every dish with its aromatic presence and take your meal presentation to a whole new level.  <br/> <br/> 507 Gold Basmati Rice is more than an ingredient; it's the key to unlocking a world of culinary creativity. Perfect for crafting Muglai, Indian, Chinese, and Continental delicacies, this rice seamlessly weaves flavors and cultures together on your plate.  <br/> <br/> Experience the pinnacle of rice excellence with 507 Gold Basmati Rice – where taste, aroma, and elegance unite to redefine your dining journey.",
     imageUrl: images.basmati20kg,
     price: '52,000',
     alt: 'Wenfoods duru bulgur',
@@ -32,7 +32,7 @@ export const hotOffersData = [
     id: 3,
     title: '507 Gold Parboiled Basmati Rice 10kg',
     subtitle:
-      " Unlock a world of opportunities in Australia with our diverse visa program. Whether you're pursuing work, study, tourism, or business endeavors, we offer tailored solutions to meet your specific requirements. Let us be your guide to making your Australian dreams a reality.",
+      "Introducing 507 Gold Basmati Rice – A Superior Culinary Experience!  <br/> <br/> Elevate your dining affair with the epitome of rice perfection, the 507 Gold Basmati Rice. This exceptional variety stands tall, boasting its delectable taste, pristine pearl-white appearance, and the luxurious length of its grains. A natural source of protein, it adds an extra layer of nourishment to your meals.  <br/> <br/> As the true embodiment of traditional Basmati rice, 507 Gold has captured the hearts of Basmati enthusiasts far and wide. Its fragrance is simply spellbinding, and its taste is nothing short of divine. Elevate every dish with its aromatic presence and take your meal presentation to a whole new level.  <br/> <br/> 507 Gold Basmati Rice is more than an ingredient; it's the key to unlocking a world of culinary creativity. Perfect for crafting Muglai, Indian, Chinese, and Continental delicacies, this rice seamlessly weaves flavors and cultures together on your plate.  <br/> <br/> Experience the pinnacle of rice excellence with 507 Gold Basmati Rice – where taste, aroma, and elegance unite to redefine your dining journey.",
     imageUrl: images.basmati10kg,
     price: '28,000',
     alt: 'Wenfoods duru bulgur',
@@ -41,7 +41,7 @@ export const hotOffersData = [
     id: 4,
     title: '507 Gold Parboiled Basmati Rice 5kg',
     subtitle:
-      " Unlock a world of opportunities in Australia with our diverse visa program. Whether you're pursuing work, study, tourism, or business endeavors, we offer tailored solutions to meet your specific requirements. Let us be your guide to making your Australian dreams a reality.",
+      "Introducing 507 Gold Basmati Rice – A Superior Culinary Experience!  <br/> <br/> Elevate your dining affair with the epitome of rice perfection, the 507 Gold Basmati Rice. This exceptional variety stands tall, boasting its delectable taste, pristine pearl-white appearance, and the luxurious length of its grains. A natural source of protein, it adds an extra layer of nourishment to your meals.  <br/> <br/> As the true embodiment of traditional Basmati rice, 507 Gold has captured the hearts of Basmati enthusiasts far and wide. Its fragrance is simply spellbinding, and its taste is nothing short of divine. Elevate every dish with its aromatic presence and take your meal presentation to a whole new level.  <br/> <br/> 507 Gold Basmati Rice is more than an ingredient; it's the key to unlocking a world of culinary creativity. Perfect for crafting Muglai, Indian, Chinese, and Continental delicacies, this rice seamlessly weaves flavors and cultures together on your plate.  <br/> <br/> Experience the pinnacle of rice excellence with 507 Gold Basmati Rice – where taste, aroma, and elegance unite to redefine your dining journey.",
     price: '15,000',
     imageUrl: images.basmati5kg,
     alt: 'Wenfoods duru bulgur',
@@ -50,7 +50,7 @@ export const hotOffersData = [
     id: 5,
     title: '507 Gold Parboiled Basmati Rice 1kg',
     subtitle:
-      " Unlock a world of opportunities in Australia with our diverse visa program. Whether you're pursuing work, study, tourism, or business endeavors, we offer tailored solutions to meet your specific requirements. Let us be your guide to making your Australian dreams a reality.",
+      "Introducing 507 Gold Basmati Rice – A Superior Culinary Experience!  <br/> <br/> Elevate your dining affair with the epitome of rice perfection, the 507 Gold Basmati Rice. This exceptional variety stands tall, boasting its delectable taste, pristine pearl-white appearance, and the luxurious length of its grains. A natural source of protein, it adds an extra layer of nourishment to your meals.  <br/> <br/> As the true embodiment of traditional Basmati rice, 507 Gold has captured the hearts of Basmati enthusiasts far and wide. Its fragrance is simply spellbinding, and its taste is nothing short of divine. Elevate every dish with its aromatic presence and take your meal presentation to a whole new level.  <br/> <br/> 507 Gold Basmati Rice is more than an ingredient; it's the key to unlocking a world of culinary creativity. Perfect for crafting Muglai, Indian, Chinese, and Continental delicacies, this rice seamlessly weaves flavors and cultures together on your plate.  <br/> <br/> Experience the pinnacle of rice excellence with 507 Gold Basmati Rice – where taste, aroma, and elegance unite to redefine your dining journey.",
     price: '3,000',
     imageUrl: images.basmati1kg,
     alt: 'Wenfoods duru bulgur',

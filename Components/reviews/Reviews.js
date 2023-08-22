@@ -11,23 +11,23 @@ function Reviews() {
     {
       id: 1,
       name: 'Fakunle',
-      job: 'Optical Doctor ',
+      job: 'Lagos, Nigeria',
       comment:
-        '“Best travel agency in Nigeria. Trusted and reliable. I got my canada study visa within 48hrs after payment.” ',
+        "Absolutely love the fragrance and taste of their Basmati rice! It's become a staple in my kitchen.",
     },
     {
       id: 2,
       name: 'Chinedu',
-      job: 'Software enginner',
+      job: 'Abuja, Nigeria',
       comment:
-        '“Nice review, I really enjoy and appreciate the service. Fast and reliable, tested and trust. Leben travel and tour for real.” ',
+        'Finally found 507 Basmati rice, that\'s worth every penny. Such a delightful addition to our meals."',
     },
     {
       id: 3,
       name: 'Abubarkar',
-      job: 'Fire fighter',
+      job: 'Kano, Nigeria',
       comment:
-        'They are truthful and honest, my brother got his France visa through Destiny travels and tours. ',
+        'Exquisite Duru Bulgur Basmati rice varieties that make every dish extraordinary. A must-try for food enthusiasts.',
     },
     {
       id: 4,
@@ -38,10 +38,10 @@ function Reviews() {
     },
     {
       id: 5,
-      name: 'Buhari',
-      job: 'Fire fighter',
+      name: 'Ogechukwu',
+      job: 'Anambra',
       comment:
-        '“Most reliable travel agency in Nigeria. Trusted and honest. I got my shengen visa within 48hrs after payment.”',
+        'Top-notch quality and excellent customer service. This store is my go-to for the best Basmati rice.',
     },
   ];
   const settings = {
@@ -82,7 +82,7 @@ function Reviews() {
   return (
     <main className={styles.reviews}>
       <Slider className='reviewsSlider' {...settings}>
-        {reviews.map(({ id, name, comment }) => (
+        {reviews.map(({ id, name, comment, job }) => (
           <section key={id} className={`${styles.contents} col-12 `}>
             <span className={styles.qoutes}>
               <FaQuoteLeft />
@@ -91,7 +91,7 @@ function Reviews() {
               <p> {comment} </p>
             </blockquote>
             <p className={styles.name}> {name}</p>
-            {/* <small> {job} </small> */}
+            <small> {job} </small>
           </section>
         ))}
       </Slider>
