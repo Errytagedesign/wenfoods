@@ -15,9 +15,9 @@ const Outfit = localFont({
 export const metadata = {
   title: 'Wen Foods Stores',
   description:
-    'Expert Visa Solutions offers comprehensive assistance with work visas, study visas, permanent residency, citizenship, business visas, and tourist visas. We also provide convenient reservations for flights, hotels, and apartments worldwide.',
+    'Wen Foods house, product with Elevating Taste, Nourishing Life, Your Source for Basmati Rice & Healthy Delights.',
   keywords:
-    'airline ticketing system, ticketing and reservation, online booking process, air ticketing and reservation in nigeria, airline ticketing and reservation, visas assistance, study visas assistance in nigeria',
+    'wenfoods basmati rice, basmatirice, duru, duru bulgur, healthy food, diabetes',
 };
 
 export default function RootLayout({ children }) {
