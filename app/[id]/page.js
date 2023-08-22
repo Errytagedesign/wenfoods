@@ -34,7 +34,7 @@ export default function SingleProduct({ params }) {
             alt={product.alt}
           />{' '}
         </figure>
-        <aside className='col-12 col-lg-6'>
+        <aside className='col-12 col-lg-6 mt-5 mt-lg-0'>
           <h3>{product.title} </h3>
           <h2> ₦ {product.price} </h2>
 
@@ -52,7 +52,7 @@ export default function SingleProduct({ params }) {
             </Link>
 
             <Link href='/contact' className='grey-btn'>
-              Contach us
+              Contact us
             </Link>
           </div>
         </aside>

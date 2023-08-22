@@ -32,9 +32,9 @@ function Reviews() {
     {
       id: 4,
       name: 'Adegoke',
-      job: 'Fire fighter',
+      job: 'Ibadan, Nigeria',
       comment:
-        'Customer friendly and reliable, my sister got her Ghana admission and visa through Destiny travels and tours. ',
+        '"Healthy and delicious options all in one place. Their Basmati rice is a game-changer."',
     },
     {
       id: 5,
